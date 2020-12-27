@@ -1,6 +1,7 @@
+from getpass import getpass
 # meminta input dari user
-user1 = input('Pilih (gunting/batu/kertas): ')
-user2 = input('pilih (gunting/batu/kertas):')
+user1 = getpass('Pilih (gunting/batu/kertas): ')
+user2 = getpass('pilih (gunting/batu/kertas):')
 
 # melakukan perbandingan
 if user1 == 'gunting' and user2 == 'batu':
